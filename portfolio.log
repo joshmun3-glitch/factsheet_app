@@ -1,0 +1,257 @@
+2026-01-06 21:29:22,288 - src.data_processor - INFO - Filling data for 2025-12-31: 23 stocks, 6 currencies
+2026-01-06 21:29:33,797 - src.data_fetcher - INFO - Fetched price for DEO: 86.2699966430664 on 2025-12-31
+2026-01-06 21:29:33,798 - src.data_processor - INFO -   Updated price for DEO: 86.2699966430664
+2026-01-06 21:29:34,218 - src.data_fetcher - INFO - Fetched price for 3690.HK: 102.80000305175781 on 2025-12-31
+2026-01-06 21:29:34,219 - src.data_processor - INFO -   Updated price for 3690.HK: 102.80000305175781
+2026-01-06 21:29:35,314 - yfinance - ERROR - $JYP: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:35,356 - src.data_fetcher - WARNING - No price data for 035900.KQ on 2025-12-31
+2026-01-06 21:29:35,805 - src.data_fetcher - INFO - Fetched price for V: 350.7099914550781 on 2025-12-31
+2026-01-06 21:29:35,806 - src.data_processor - INFO -   Updated price for V: 350.7099914550781
+2026-01-06 21:29:36,257 - src.data_fetcher - INFO - Fetched price for 000858.SZ: 105.94000244140625 on 2025-12-31
+2026-01-06 21:29:36,258 - src.data_processor - INFO -   Updated price for 000858.SZ: 105.94000244140625
+2026-01-06 21:29:36,624 - src.data_fetcher - INFO - Fetched price for MNST: 76.66999816894531 on 2025-12-31
+2026-01-06 21:29:36,624 - src.data_processor - INFO -   Updated price for MNST: 76.66999816894531
+2026-01-06 21:29:37,080 - src.data_fetcher - INFO - Fetched price for IDXX: 676.530029296875 on 2025-12-31
+2026-01-06 21:29:37,081 - src.data_processor - INFO -   Updated price for IDXX: 676.530029296875
+2026-01-06 21:29:40,335 - yfinance - ERROR - $SOOP: possibly delisted; no timezone found
+2026-01-06 21:29:40,336 - src.data_fetcher - WARNING - No price data for 067160.KQ on 2025-12-31
+2026-01-06 21:29:40,959 - yfinance - ERROR - $CFR.SW: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:40,960 - src.data_fetcher - WARNING - No price data for CFR.SW on 2025-12-31
+2026-01-06 21:29:41,369 - src.data_fetcher - INFO - Fetched price for BABA: 146.5800018310547 on 2025-12-31
+2026-01-06 21:29:41,370 - src.data_processor - INFO -   Updated price for BABA: 146.5800018310547
+2026-01-06 21:29:41,786 - src.data_fetcher - INFO - Fetched price for HD: 344.1000061035156 on 2025-12-31
+2026-01-06 21:29:41,787 - src.data_processor - INFO -   Updated price for HD: 344.1000061035156
+2026-01-06 21:29:42,401 - src.data_fetcher - INFO - Fetched price for PM: 160.39999389648438 on 2025-12-31
+2026-01-06 21:29:42,402 - src.data_processor - INFO -   Updated price for PM: 160.39999389648438
+2026-01-06 21:29:43,097 - src.data_fetcher - INFO - Fetched price for 0700.HK: 599.0 on 2025-12-31
+2026-01-06 21:29:43,098 - src.data_processor - INFO -   Updated price for 0700.HK: 599.0
+2026-01-06 21:29:43,626 - src.data_fetcher - INFO - Fetched price for OTIS: 87.3499984741211 on 2025-12-31
+2026-01-06 21:29:43,626 - src.data_processor - INFO -   Updated price for OTIS: 87.3499984741211
+2026-01-06 21:29:44,240 - src.data_fetcher - INFO - Fetched price for ROL: 60.02000045776367 on 2025-12-31
+2026-01-06 21:29:44,241 - src.data_processor - INFO -   Updated price for ROL: 60.02000045776367
+2026-01-06 21:29:44,967 - src.data_fetcher - INFO - Fetched price for UBER: 81.70999908447266 on 2025-12-31
+2026-01-06 21:29:44,968 - src.data_processor - INFO -   Updated price for UBER: 81.70999908447266
+2026-01-06 21:29:45,773 - src.data_fetcher - INFO - Fetched price for DASH: 226.47999572753906 on 2025-12-31
+2026-01-06 21:29:45,773 - src.data_processor - INFO -   Updated price for DASH: 226.47999572753906
+2026-01-06 21:29:46,230 - src.data_fetcher - INFO - Fetched price for RACE: 369.55999755859375 on 2025-12-31
+2026-01-06 21:29:46,232 - src.data_processor - INFO -   Updated price for RACE: 369.55999755859375
+2026-01-06 21:29:47,287 - src.data_fetcher - INFO - Fetched price for AXP: 369.1300048828125 on 2025-12-31
+2026-01-06 21:29:47,287 - src.data_processor - INFO -   Updated price for AXP: 369.1300048828125
+2026-01-06 21:29:47,888 - src.data_fetcher - INFO - Fetched price for HSY: 181.97999572753906 on 2025-12-31
+2026-01-06 21:29:47,889 - src.data_processor - INFO -   Updated price for HSY: 181.97999572753906
+2026-01-06 21:29:48,422 - yfinance - ERROR - $2801.T: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:48,422 - src.data_fetcher - WARNING - No price data for 2801 JT on 2025-12-31
+2026-01-06 21:29:49,069 - src.data_fetcher - INFO - Fetched price for ABNB: 135.72000122070312 on 2025-12-31
+2026-01-06 21:29:49,070 - src.data_processor - INFO -   Updated price for ABNB: 135.72000122070312
+2026-01-06 21:29:49,784 - src.data_fetcher - INFO - Fetched price for RMS.PA: 2122.0 on 2025-12-31
+2026-01-06 21:29:49,785 - src.data_processor - INFO -   Updated price for RMS.PA: 2122.0
+2026-01-06 21:29:50,376 - yfinance - ERROR - $CNYKRW=X: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:50,376 - src.data_fetcher - WARNING - No exchange rate for CNY
+2026-01-06 21:29:50,901 - src.data_fetcher - INFO - Fetched FX rate: 1 HKD = 184.8081817626953 KRW
+2026-01-06 21:29:50,902 - src.data_processor - INFO -   Updated exchange rate for HKD: 184.8081817626953
+2026-01-06 21:29:51,514 - src.data_fetcher - INFO - Fetched FX rate: 1 JPY = 9.193496704101562 KRW
+2026-01-06 21:29:51,514 - src.data_processor - INFO -   Updated exchange rate for JPY: 9.193496704101562
+2026-01-06 21:29:51,923 - src.data_fetcher - INFO - Fetched FX rate: 1 USD = 1437.9100341796875 KRW
+2026-01-06 21:29:51,923 - src.data_processor - INFO -   Updated exchange rate for USD: 1437.9100341796875
+2026-01-06 21:29:52,637 - src.data_fetcher - INFO - Fetched FX rate: 1 EUR = 1688.989990234375 KRW
+2026-01-06 21:29:52,638 - src.data_processor - INFO -   Updated exchange rate for EUR: 1688.989990234375
+2026-01-06 21:29:53,261 - src.data_fetcher - INFO - Fetched FX rate: 1 CHF = 1816.024658203125 KRW
+2026-01-06 21:29:53,262 - src.data_processor - INFO -   Updated exchange rate for CHF: 1816.024658203125
+2026-01-06 21:29:53,262 - src.data_processor - INFO - Filling data for 2025-12-31: 23 stocks, 6 currencies
+2026-01-06 21:29:53,273 - src.data_processor - INFO -   Updated price for DEO: 86.2699966430664
+2026-01-06 21:29:53,281 - src.data_processor - INFO -   Updated price for 3690.HK: 102.80000305175781
+2026-01-06 21:29:53,282 - yfinance - ERROR - $JYP: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:53,282 - src.data_fetcher - WARNING - No price data for 035900.KQ on 2025-12-31
+2026-01-06 21:29:53,290 - src.data_processor - INFO -   Updated price for V: 350.7099914550781
+2026-01-06 21:29:53,297 - src.data_processor - INFO -   Updated price for 000858.SZ: 105.94000244140625
+2026-01-06 21:29:53,304 - src.data_processor - INFO -   Updated price for MNST: 76.66999816894531
+2026-01-06 21:29:53,311 - src.data_processor - INFO -   Updated price for IDXX: 676.530029296875
+2026-01-06 21:29:54,708 - yfinance - ERROR - $SOOP: possibly delisted; no timezone found
+2026-01-06 21:29:54,709 - src.data_fetcher - WARNING - No price data for 067160.KQ on 2025-12-31
+2026-01-06 21:29:54,711 - yfinance - ERROR - $CFR.SW: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:54,712 - src.data_fetcher - WARNING - No price data for CFR.SW on 2025-12-31
+2026-01-06 21:29:54,726 - src.data_processor - INFO -   Updated price for BABA: 146.5800018310547
+2026-01-06 21:29:54,735 - src.data_processor - INFO -   Updated price for HD: 344.1000061035156
+2026-01-06 21:29:54,744 - src.data_processor - INFO -   Updated price for PM: 160.39999389648438
+2026-01-06 21:29:54,751 - src.data_processor - INFO -   Updated price for 0700.HK: 599.0
+2026-01-06 21:29:54,758 - src.data_processor - INFO -   Updated price for OTIS: 87.3499984741211
+2026-01-06 21:29:54,765 - src.data_processor - INFO -   Updated price for ROL: 60.02000045776367
+2026-01-06 21:29:54,772 - src.data_processor - INFO -   Updated price for UBER: 81.70999908447266
+2026-01-06 21:29:54,779 - src.data_processor - INFO -   Updated price for DASH: 226.47999572753906
+2026-01-06 21:29:54,786 - src.data_processor - INFO -   Updated price for RACE: 369.55999755859375
+2026-01-06 21:29:54,792 - src.data_processor - INFO -   Updated price for AXP: 369.1300048828125
+2026-01-06 21:29:54,798 - src.data_processor - INFO -   Updated price for HSY: 181.97999572753906
+2026-01-06 21:29:54,799 - yfinance - ERROR - $2801.T: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:54,800 - src.data_fetcher - WARNING - No price data for 2801 JT on 2025-12-31
+2026-01-06 21:29:54,807 - src.data_processor - INFO -   Updated price for ABNB: 135.72000122070312
+2026-01-06 21:29:54,815 - src.data_processor - INFO -   Updated price for RMS.PA: 2122.0
+2026-01-06 21:29:54,815 - yfinance - ERROR - $CNYKRW=X: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:54,816 - src.data_fetcher - WARNING - No exchange rate for CNY
+2026-01-06 21:29:54,822 - src.data_processor - INFO -   Updated exchange rate for HKD: 184.8081817626953
+2026-01-06 21:29:54,829 - src.data_processor - INFO -   Updated exchange rate for JPY: 9.193496704101562
+2026-01-06 21:29:54,835 - src.data_processor - INFO -   Updated exchange rate for USD: 1437.9100341796875
+2026-01-06 21:29:54,841 - src.data_processor - INFO -   Updated exchange rate for EUR: 1688.989990234375
+2026-01-06 21:29:54,848 - src.data_processor - INFO -   Updated exchange rate for CHF: 1816.024658203125
+2026-01-06 21:29:55,298 - yfinance - ERROR - $^KS11: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:55,299 - src.data_fetcher - WARNING - No data for KOSPI on 2025-12-31
+2026-01-06 21:29:55,920 - src.data_fetcher - INFO - Fetched S&P: 6845.5 on 2025-12-31
+2026-01-06 21:29:55,921 - src.data_processor - INFO -   Updated S&P: 6845.5
+2026-01-06 21:29:55,921 - src.data_processor - INFO - Filling data for 2025-12-31: 23 stocks, 6 currencies
+2026-01-06 21:29:55,922 - src.data_processor - INFO -   Updated price for DEO: 86.2699966430664
+2026-01-06 21:29:55,923 - src.data_processor - INFO -   Updated price for 3690.HK: 102.80000305175781
+2026-01-06 21:29:55,924 - yfinance - ERROR - $JYP: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:55,924 - src.data_fetcher - WARNING - No price data for 035900.KQ on 2025-12-31
+2026-01-06 21:29:55,924 - src.data_processor - INFO -   Updated price for V: 350.7099914550781
+2026-01-06 21:29:55,925 - src.data_processor - INFO -   Updated price for 000858.SZ: 105.94000244140625
+2026-01-06 21:29:55,926 - src.data_processor - INFO -   Updated price for MNST: 76.66999816894531
+2026-01-06 21:29:55,926 - src.data_processor - INFO -   Updated price for IDXX: 676.530029296875
+2026-01-06 21:29:55,927 - yfinance - ERROR - $SOOP: possibly delisted; no timezone found
+2026-01-06 21:29:55,927 - src.data_fetcher - WARNING - No price data for 067160.KQ on 2025-12-31
+2026-01-06 21:29:55,928 - yfinance - ERROR - $CFR.SW: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:55,928 - src.data_fetcher - WARNING - No price data for CFR.SW on 2025-12-31
+2026-01-06 21:29:55,929 - src.data_processor - INFO -   Updated price for BABA: 146.5800018310547
+2026-01-06 21:29:55,929 - src.data_processor - INFO -   Updated price for HD: 344.1000061035156
+2026-01-06 21:29:55,930 - src.data_processor - INFO -   Updated price for PM: 160.39999389648438
+2026-01-06 21:29:55,930 - src.data_processor - INFO -   Updated price for 0700.HK: 599.0
+2026-01-06 21:29:55,931 - src.data_processor - INFO -   Updated price for OTIS: 87.3499984741211
+2026-01-06 21:29:55,931 - src.data_processor - INFO -   Updated price for ROL: 60.02000045776367
+2026-01-06 21:29:55,932 - src.data_processor - INFO -   Updated price for UBER: 81.70999908447266
+2026-01-06 21:29:55,932 - src.data_processor - INFO -   Updated price for DASH: 226.47999572753906
+2026-01-06 21:29:55,933 - src.data_processor - INFO -   Updated price for RACE: 369.55999755859375
+2026-01-06 21:29:55,933 - src.data_processor - INFO -   Updated price for AXP: 369.1300048828125
+2026-01-06 21:29:55,934 - src.data_processor - INFO -   Updated price for HSY: 181.97999572753906
+2026-01-06 21:29:55,935 - yfinance - ERROR - $2801.T: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:55,935 - src.data_fetcher - WARNING - No price data for 2801 JT on 2025-12-31
+2026-01-06 21:29:55,936 - src.data_processor - INFO -   Updated price for ABNB: 135.72000122070312
+2026-01-06 21:29:55,936 - src.data_processor - INFO -   Updated price for RMS.PA: 2122.0
+2026-01-06 21:29:55,937 - yfinance - ERROR - $CNYKRW=X: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:29:55,937 - src.data_fetcher - WARNING - No exchange rate for CNY
+2026-01-06 21:29:55,938 - src.data_processor - INFO -   Updated exchange rate for HKD: 184.8081817626953
+2026-01-06 21:29:55,938 - src.data_processor - INFO -   Updated exchange rate for JPY: 9.193496704101562
+2026-01-06 21:29:55,939 - src.data_processor - INFO -   Updated exchange rate for USD: 1437.9100341796875
+2026-01-06 21:29:55,939 - src.data_processor - INFO -   Updated exchange rate for EUR: 1688.989990234375
+2026-01-06 21:29:55,940 - src.data_processor - INFO -   Updated exchange rate for CHF: 1816.024658203125
+2026-01-06 21:29:55,942 - src.data_processor - INFO - Saved portfolio data to data\portfolio.csv
+2026-01-06 21:29:55,943 - src.twr_calculator - INFO - TWR 2025-05-30: 0.80% (MWR: 1.22%, CF: 1,340,511)
+2026-01-06 21:29:55,943 - src.twr_calculator - INFO - TWR 2025-06-30: -0.31% (MWR: 1.99%, CF: 7,491,819)
+2026-01-06 21:29:55,943 - src.twr_calculator - INFO - TWR 2025-07-31: 0.54% (MWR: 1.06%, CF: 1,748,470)
+2026-01-06 21:29:55,943 - src.twr_calculator - INFO - TWR 2025-08-31: 3.89% (MWR: 4.99%, CF: 3,664,855)
+2026-01-06 21:29:55,943 - src.twr_calculator - INFO - TWR 2025-09-30: 5.55% (MWR: 4.23%, CF: -4,642,462)
+2026-01-06 21:29:55,943 - src.twr_calculator - INFO - TWR 2025-10-31: -0.37% (MWR: 3.22%, CF: 13,168,346)
+2026-01-06 21:29:55,944 - src.twr_calculator - INFO - TWR 2025-11-30: 1.97% (MWR: 1.09%, CF: -3,336,568)
+2026-01-06 21:29:55,944 - src.twr_calculator - INFO - TWR 2025-12-31: -100.00% (MWR: -100.00%, CF: 0)
+2026-01-06 21:29:56,203 - src.factsheet_gen - INFO - Factsheet generated: {'html': 'output\\factsheets\\factsheet_20251231.html'}
+2026-01-06 21:30:06,965 - src.data_processor - INFO - Filling data for 2025-12-31: 4 stocks, 1 currencies
+2026-01-06 21:30:10,030 - yfinance - ERROR - $CFR.SW: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:10,031 - src.data_fetcher - WARNING - No price data for CFR.SW on 2025-12-31
+2026-01-06 21:30:14,028 - yfinance - ERROR - $SOOP: possibly delisted; no timezone found
+2026-01-06 21:30:14,029 - src.data_fetcher - WARNING - No price data for 067160.KQ on 2025-12-31
+2026-01-06 21:30:14,740 - yfinance - ERROR - $JYP: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:14,741 - src.data_fetcher - WARNING - No price data for 035900.KQ on 2025-12-31
+2026-01-06 21:30:15,284 - yfinance - ERROR - $2801.T: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:15,285 - src.data_fetcher - WARNING - No price data for 2801 JT on 2025-12-31
+2026-01-06 21:30:16,080 - yfinance - ERROR - $CNYKRW=X: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:16,080 - src.data_fetcher - WARNING - No exchange rate for CNY
+2026-01-06 21:30:16,081 - src.data_processor - INFO - Filling data for 2025-12-31: 4 stocks, 1 currencies
+2026-01-06 21:30:16,082 - yfinance - ERROR - $CFR.SW: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:16,083 - src.data_fetcher - WARNING - No price data for CFR.SW on 2025-12-31
+2026-01-06 21:30:17,199 - yfinance - ERROR - $SOOP: possibly delisted; no timezone found
+2026-01-06 21:30:17,199 - src.data_fetcher - WARNING - No price data for 067160.KQ on 2025-12-31
+2026-01-06 21:30:17,202 - yfinance - ERROR - $JYP: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:17,202 - src.data_fetcher - WARNING - No price data for 035900.KQ on 2025-12-31
+2026-01-06 21:30:17,204 - yfinance - ERROR - $2801.T: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:17,205 - src.data_fetcher - WARNING - No price data for 2801 JT on 2025-12-31
+2026-01-06 21:30:17,207 - yfinance - ERROR - $CNYKRW=X: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:17,207 - src.data_fetcher - WARNING - No exchange rate for CNY
+2026-01-06 21:30:18,014 - yfinance - ERROR - $^KS11: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:18,015 - src.data_fetcher - WARNING - No data for KOSPI on 2025-12-31
+2026-01-06 21:30:18,030 - src.data_processor - INFO -   Updated S&P: 6845.5
+2026-01-06 21:30:18,030 - src.data_processor - INFO - Filling data for 2025-12-31: 4 stocks, 1 currencies
+2026-01-06 21:30:18,031 - yfinance - ERROR - $CFR.SW: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:18,032 - src.data_fetcher - WARNING - No price data for CFR.SW on 2025-12-31
+2026-01-06 21:30:18,032 - yfinance - ERROR - $SOOP: possibly delisted; no timezone found
+2026-01-06 21:30:18,033 - src.data_fetcher - WARNING - No price data for 067160.KQ on 2025-12-31
+2026-01-06 21:30:18,034 - yfinance - ERROR - $JYP: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:18,034 - src.data_fetcher - WARNING - No price data for 035900.KQ on 2025-12-31
+2026-01-06 21:30:18,034 - yfinance - ERROR - $2801.T: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:18,035 - src.data_fetcher - WARNING - No price data for 2801 JT on 2025-12-31
+2026-01-06 21:30:18,035 - yfinance - ERROR - $CNYKRW=X: possibly delisted; no price data found  (1d 2025-12-31 -> 2026-01-01)
+2026-01-06 21:30:18,035 - src.data_fetcher - WARNING - No exchange rate for CNY
+2026-01-06 21:30:18,036 - src.data_processor - WARNING - No exchange rate for 000858.SZ on 2025-12-31
+2026-01-06 21:30:18,036 - src.data_processor - WARNING - No exchange rate for 000858.SZ on 2025-12-31
+2026-01-06 21:30:18,036 - src.twr_calculator - INFO - TWR 2025-05-30: 0.80% (MWR: 1.22%, CF: 1,340,511)
+2026-01-06 21:30:18,036 - src.twr_calculator - INFO - TWR 2025-06-30: -0.31% (MWR: 1.99%, CF: 7,491,819)
+2026-01-06 21:30:18,036 - src.twr_calculator - INFO - TWR 2025-07-31: 0.54% (MWR: 1.06%, CF: 1,748,470)
+2026-01-06 21:30:18,037 - src.twr_calculator - INFO - TWR 2025-08-31: 3.89% (MWR: 4.99%, CF: 3,664,855)
+2026-01-06 21:30:18,037 - src.twr_calculator - INFO - TWR 2025-09-30: 5.55% (MWR: 4.23%, CF: -4,642,462)
+2026-01-06 21:30:18,037 - src.twr_calculator - INFO - TWR 2025-10-31: -0.37% (MWR: 3.22%, CF: 13,168,346)
+2026-01-06 21:30:18,037 - src.twr_calculator - INFO - TWR 2025-11-30: 1.97% (MWR: 1.09%, CF: -3,336,568)
+2026-01-06 21:30:18,037 - src.twr_calculator - INFO - TWR 2025-12-31: -20.70% (MWR: -20.70%, CF: 0)
+2026-01-06 21:30:18,037 - src.data_processor - WARNING - No exchange rate for 000858.SZ on 2025-12-31
+2026-01-06 21:30:18,037 - src.data_processor - WARNING - No exchange rate for 000858.SZ on 2025-12-31
+2026-01-06 21:30:18,037 - src.data_processor - WARNING - No exchange rate for 000858.SZ on 2025-12-31
+2026-01-06 21:30:18,038 - src.data_processor - WARNING - No exchange rate for 000858.SZ on 2025-12-31
+2026-01-06 21:30:20,993 - src.factsheet_gen - INFO - Factsheet generated: {'html': 'output\\factsheets\\factsheet_20251231.html'}
+2026-01-06 21:51:52,684 - src.data_fetcher - ERROR - Error fetching KOSPI: module 'pykrx.stock' has no attribute 'get_index_ohlc'
+2026-01-06 21:51:52,686 - src.data_processor - INFO -   Updated S&P: 6845.5
+2026-01-06 21:51:52,686 - src.data_processor - INFO - Filling data for 2025-12-31: 2 stocks, 0 currencies
+2026-01-06 21:51:52,744 - src.data_processor - INFO -   Updated price for 067160.KQ: 67000.0
+2026-01-06 21:51:52,755 - src.data_processor - INFO -   Updated price for 035900.KQ: 71500.0
+2026-01-06 21:51:52,759 - src.data_processor - INFO - Saved portfolio data to data\portfolio.csv
+2026-01-06 21:51:52,760 - src.twr_calculator - INFO - TWR 2025-05-30: 1.22% (MWR: 1.22%, CF: 0)
+2026-01-06 21:51:52,760 - src.twr_calculator - INFO - TWR 2025-06-30: -0.31% (MWR: 1.99%, CF: 7,491,819)
+2026-01-06 21:51:52,760 - src.twr_calculator - INFO - TWR 2025-07-31: 0.54% (MWR: 1.06%, CF: 1,748,470)
+2026-01-06 21:51:52,760 - src.twr_calculator - INFO - TWR 2025-08-31: 4.27% (MWR: 4.99%, CF: 2,414,217)
+2026-01-06 21:51:52,760 - src.twr_calculator - INFO - TWR 2025-09-30: 5.55% (MWR: 4.23%, CF: -4,642,462)
+2026-01-06 21:51:52,761 - src.twr_calculator - INFO - TWR 2025-10-31: -0.37% (MWR: 3.22%, CF: 13,168,346)
+2026-01-06 21:51:52,761 - src.twr_calculator - INFO - TWR 2025-11-30: 1.97% (MWR: 1.09%, CF: -3,336,568)
+2026-01-06 21:51:52,762 - src.twr_calculator - INFO - TWR 2025-12-31: -10.86% (MWR: -10.86%, CF: 0)
+2026-01-06 21:51:52,918 - src.factsheet_gen - INFO - Factsheet generated: {'html': 'output\\factsheets\\factsheet_20251231.html'}
+2026-01-06 21:52:54,625 - src.data_fetcher - WARNING - No KOSPI data for 2025-12-31
+2026-01-06 21:52:54,627 - src.data_processor - INFO -   Updated S&P: 6845.5
+2026-01-06 21:52:54,631 - src.data_processor - INFO - Saved portfolio data to data\portfolio.csv
+2026-01-06 21:52:54,632 - src.twr_calculator - INFO - TWR 2025-05-30: 1.22% (MWR: 1.22%, CF: 0)
+2026-01-06 21:52:54,632 - src.twr_calculator - INFO - TWR 2025-06-30: -0.31% (MWR: 1.99%, CF: 7,491,819)
+2026-01-06 21:52:54,632 - src.twr_calculator - INFO - TWR 2025-07-31: 0.54% (MWR: 1.06%, CF: 1,748,470)
+2026-01-06 21:52:54,632 - src.twr_calculator - INFO - TWR 2025-08-31: 4.27% (MWR: 4.99%, CF: 2,414,217)
+2026-01-06 21:52:54,633 - src.twr_calculator - INFO - TWR 2025-09-30: 5.55% (MWR: 4.23%, CF: -4,642,462)
+2026-01-06 21:52:54,633 - src.twr_calculator - INFO - TWR 2025-10-31: -0.37% (MWR: 3.22%, CF: 13,168,346)
+2026-01-06 21:52:54,633 - src.twr_calculator - INFO - TWR 2025-11-30: 1.97% (MWR: 1.09%, CF: -3,336,568)
+2026-01-06 21:52:54,633 - src.twr_calculator - INFO - TWR 2025-12-31: -4.68% (MWR: -4.68%, CF: 0)
+2026-01-06 21:52:54,805 - src.factsheet_gen - INFO - Factsheet generated: {'html': 'output\\factsheets\\factsheet_20251231.html'}
+2026-01-06 22:03:47,971 - src.twr_calculator - INFO - TWR 2025-05-30: 1.22% (MWR: 1.22%, CF: 0)
+2026-01-06 22:03:47,973 - src.twr_calculator - INFO - TWR 2025-06-30: -0.31% (MWR: 1.99%, CF: 7,491,819)
+2026-01-06 22:03:47,975 - src.twr_calculator - INFO - TWR 2025-07-31: 0.54% (MWR: 1.06%, CF: 1,748,470)
+2026-01-06 22:03:47,977 - src.twr_calculator - INFO - TWR 2025-08-31: 4.27% (MWR: 4.99%, CF: 2,414,217)
+2026-01-06 22:03:47,979 - src.twr_calculator - INFO - TWR 2025-09-30: 5.55% (MWR: 4.23%, CF: -4,642,462)
+2026-01-06 22:03:47,981 - src.twr_calculator - INFO - TWR 2025-10-31: -0.37% (MWR: 3.22%, CF: 13,168,346)
+2026-01-06 22:03:47,984 - src.twr_calculator - INFO - TWR 2025-11-30: 1.97% (MWR: 1.09%, CF: -3,336,568)
+2026-01-06 22:03:47,985 - src.twr_calculator - INFO - TWR 2025-12-31: -4.68% (MWR: -4.68%, CF: 0)
+2026-01-06 22:03:48,193 - src.factsheet_gen - INFO - Factsheet generated: {'html': 'output\\factsheets\\factsheet_20251231.html'}
+2026-01-06 22:09:07,133 - src.twr_calculator - INFO - TWR 2025-05-30: 1.22% (MWR: 1.22%, CF: 0)
+2026-01-06 22:09:07,134 - src.twr_calculator - INFO - TWR 2025-06-30: -0.31% (MWR: 1.99%, CF: 7,491,819)
+2026-01-06 22:09:07,134 - src.twr_calculator - INFO - TWR 2025-07-31: 0.54% (MWR: 1.06%, CF: 1,748,470)
+2026-01-06 22:09:07,134 - src.twr_calculator - INFO - TWR 2025-08-31: 4.27% (MWR: 4.99%, CF: 2,414,217)
+2026-01-06 22:09:07,135 - src.twr_calculator - INFO - TWR 2025-09-30: 5.55% (MWR: 4.23%, CF: -4,642,462)
+2026-01-06 22:09:07,135 - src.twr_calculator - INFO - TWR 2025-10-31: -0.37% (MWR: 3.22%, CF: 13,168,346)
+2026-01-06 22:09:07,136 - src.twr_calculator - INFO - TWR 2025-11-30: 1.97% (MWR: 1.09%, CF: -3,336,568)
+2026-01-06 22:09:07,136 - src.twr_calculator - INFO - TWR 2025-12-31: -4.68% (MWR: -4.68%, CF: 0)
+2026-01-06 22:09:07,305 - src.factsheet_gen - INFO - Factsheet generated: {'html': 'output\\factsheets\\factsheet_20251231.html'}
+2026-01-06 22:09:54,495 - src.twr_calculator - INFO - TWR 2025-05-30: 1.22% (MWR: 1.22%, CF: 0)
+2026-01-06 22:09:54,496 - src.twr_calculator - INFO - TWR 2025-06-30: -0.31% (MWR: 1.99%, CF: 7,491,819)
+2026-01-06 22:09:54,496 - src.twr_calculator - INFO - TWR 2025-07-31: 0.54% (MWR: 1.06%, CF: 1,748,470)
+2026-01-06 22:09:54,496 - src.twr_calculator - INFO - TWR 2025-08-31: 4.27% (MWR: 4.99%, CF: 2,414,217)
+2026-01-06 22:09:54,497 - src.twr_calculator - INFO - TWR 2025-09-30: 5.55% (MWR: 4.23%, CF: -4,642,462)
+2026-01-06 22:09:54,498 - src.twr_calculator - INFO - TWR 2025-10-31: -0.37% (MWR: 3.22%, CF: 13,168,346)
+2026-01-06 22:09:54,498 - src.twr_calculator - INFO - TWR 2025-11-30: 1.97% (MWR: 1.09%, CF: -3,336,568)
+2026-01-06 22:09:54,499 - src.twr_calculator - INFO - TWR 2025-12-31: -4.68% (MWR: -4.68%, CF: 0)
+2026-01-06 22:09:54,659 - src.factsheet_gen - INFO - Factsheet generated: {'html': 'output\\factsheets\\factsheet_20251231.html'}
+2026-01-06 22:12:20,279 - src.twr_calculator - INFO - TWR 2025-05-30: 1.22% (MWR: 1.22%, CF: 0)
+2026-01-06 22:12:20,279 - src.twr_calculator - INFO - TWR 2025-06-30: -0.31% (MWR: 1.99%, CF: 7,491,819)
+2026-01-06 22:12:20,280 - src.twr_calculator - INFO - TWR 2025-07-31: 0.54% (MWR: 1.06%, CF: 1,748,470)
+2026-01-06 22:12:20,280 - src.twr_calculator - INFO - TWR 2025-08-31: 4.27% (MWR: 4.99%, CF: 2,414,217)
+2026-01-06 22:12:20,281 - src.twr_calculator - INFO - TWR 2025-09-30: 5.55% (MWR: 4.23%, CF: -4,642,462)
+2026-01-06 22:12:20,282 - src.twr_calculator - INFO - TWR 2025-10-31: -0.37% (MWR: 3.22%, CF: 13,168,346)
+2026-01-06 22:12:20,282 - src.twr_calculator - INFO - TWR 2025-11-30: 1.97% (MWR: 1.09%, CF: -3,336,568)
+2026-01-06 22:12:20,282 - src.twr_calculator - INFO - TWR 2025-12-31: -4.68% (MWR: -4.68%, CF: 0)
+2026-01-06 22:12:20,456 - src.factsheet_gen - INFO - Factsheet generated: {'html': 'output\\factsheets\\factsheet_20251231.html'}
