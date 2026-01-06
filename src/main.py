@@ -119,7 +119,43 @@ def generate_monthly_factsheet(
     print(f"  Country allocation: {len(country_alloc)} countries")
     print(f"  Top 10 weight: {top_10_weight:.1f}%")
 
-    print("\n[5/7] Calculating performance metrics...")
+    print("\n[5/7] Extracting benchmark indices...")
+    kospi_value = None
+    spx_value = None
+    kospi_ytd = None
+    spx_ytd = None
+
+    entries = processor.get_entries_by_date(target_date)
+    for entry in entries:
+        if entry.ticker == "KOSPI":
+            kospi_value = entry.price
+        elif entry.ticker == "S&P":
+            spx_value = entry.price
+
+    entries_by_date = {e.date: e for e in processor.entries}
+    dates = processor.get_all_dates()
+
+    first_date = dates[0]
+    first_entry = entries_by_date.get(first_date)
+    first_kospi = None
+    first_sp = None
+
+    if first_entry:
+        for e in processor.get_entries_by_date(first_date):
+            if e.ticker == "KOSPI" and e.price:
+                first_kospi = e.price
+            elif e.ticker == "S&P" and e.price:
+                first_sp = e.price
+
+    if kospi_value and first_kospi:
+        kospi_ytd = (kospi_value - first_kospi) / first_kospi * 100
+    if spx_value and first_sp:
+        spx_ytd = (spx_value - first_sp) / first_sp * 100
+
+    print(f"  KOSPI: {kospi_value} (Return from {first_date}: {kospi_ytd:.1f}% if kospi_ytd else 'N/A')")
+    print(f"  S&P: {spx_value} (Return from {first_date}: {spx_ytd:.1f}% if spx_ytd else 'N/A')")
+
+    print("\n[6/7] Calculating performance metrics...")
     perf_summary = analyzer.calculate_performance_summary(period_returns)
     risk_metrics = analyzer.calculate_risk_metrics(period_returns)
 
@@ -128,7 +164,7 @@ def generate_monthly_factsheet(
     print(f"  Volatility: {risk_metrics['volatility']:.1f}%")
     print(f"  Sharpe Ratio: {risk_metrics['sharpe_ratio']:.2f}")
 
-    print("\n[6/7] Generating factsheet...")
+    print("\n[7/7] Generating factsheet...")
     data = FactsheetData(
         report_date=target_date,
         fund_size=portfolio_value,
@@ -146,6 +182,10 @@ def generate_monthly_factsheet(
         volatility=risk_metrics["volatility"],
         sharpe_ratio=risk_metrics["sharpe_ratio"],
         max_drawdown=risk_metrics["max_drawdown"],
+        kospi_value=kospi_value,
+        spx_value=spx_value,
+        kospi_ytd_return=kospi_ytd,
+        spx_ytd_return=spx_ytd,
     )
 
     generator = FactsheetGenerator()

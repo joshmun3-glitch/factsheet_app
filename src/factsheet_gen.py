@@ -67,6 +67,11 @@ class FactsheetData:
     benchmark_return: Optional[float] = None
     alpha: Optional[float] = None
 
+    kospi_value: Optional[float] = None
+    spx_value: Optional[float] = None
+    kospi_ytd_return: Optional[float] = None
+    spx_ytd_return: Optional[float] = None
+
     def to_dict(self) -> Dict:
         return asdict(self)
 
@@ -342,7 +347,15 @@ class FactsheetGenerator:
 
         fund_size_str = f"{data.fund_size:,.0f} {data.fund_size_currency}"
 
-        def format_pct(v):
+        ytd_pct = data.ytd_return if data.ytd_return else 0
+        one_year_pct = data.one_year_return if data.one_year_return else 0
+        three_year_pct = data.three_year_annualized if data.three_year_annualized else 0
+        since_pct = data.since_inception_annualized if data.since_inception_annualized else 0
+
+        kospi_ytd = data.kospi_ytd_return if data.kospi_ytd_return else 0
+        spx_ytd = data.spx_ytd_return if data.spx_ytd_return else 0
+
+        def safe_format_pct(v):
             if v is None:
                 return "N/A"
             sign = "+" if v >= 0 else ""
@@ -420,21 +433,49 @@ class FactsheetGenerator:
         <div class="performance-summary">
             <div class="perf-item">
                 <div class="label">YTD</div>
-                <div class="value {'positive' if data.ytd_return >= 0 else 'negative'}">{format_pct(data.ytd_return)}</div>
+                <div class="value {'positive' if ytd_pct >= 0 else 'negative'}">{safe_format_pct(ytd_pct)}</div>
             </div>
             <div class="perf-item">
                 <div class="label">1 Year</div>
-                <div class="value {'positive' if data.one_year_return >= 0 else 'negative'}">{format_pct(data.one_year_return)}</div>
+                <div class="value {'positive' if one_year_pct >= 0 else 'negative'}">{safe_format_pct(one_year_pct)}</div>
             </div>
             <div class="perf-item">
                 <div class="label">3 Year (Ann.)</div>
-                <div class="value {'positive' if data.three_year_annualized >= 0 else 'negative'}">{format_pct(data.three_year_annualized)}</div>
+                <div class="value {'positive' if three_year_pct >= 0 else 'negative'}">{safe_format_pct(three_year_pct)}</div>
             </div>
             <div class="perf-item">
                 <div class="label">Since Inception (Ann.)</div>
-                <div class="value {'positive' if data.since_inception_annualized >= 0 else 'negative'}">{format_pct(data.since_inception_annualized)}</div>
+                <div class="value {'positive' if since_pct >= 0 else 'negative'}">{safe_format_pct(since_pct)}</div>
             </div>
         </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Benchmark Indices</h2>
+        <table class="factsheet-table">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th class="text-right">Value</th>
+                    <th class="text-right">YTD Return</th>
+                    <th class="text-right">vs Portfolio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>KOSPI (KRX)</td>
+                    <td class="text-right">{f"{data.kospi_value:,.0f}" if data.kospi_value else "N/A"}</td>
+                    <td class="text-right {'positive' if kospi_ytd >= 0 else 'negative'}">{safe_format_pct(kospi_ytd)}</td>
+                    <td class="text-right {'positive' if (ytd_pct - kospi_ytd) >= 0 else 'negative'}">{safe_format_pct(ytd_pct - kospi_ytd)}</td>
+                </tr>
+                <tr>
+                    <td>S&P 500</td>
+                    <td class="text-right">{f"{data.spx_value:,.0f}" if data.spx_value else "N/A"}</td>
+                    <td class="text-right {'positive' if spx_ytd >= 0 else 'negative'}">{safe_format_pct(spx_ytd)}</td>
+                    <td class="text-right {'positive' if (ytd_pct - spx_ytd) >= 0 else 'negative'}">{safe_format_pct(ytd_pct - spx_ytd)}</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <div class="section">
